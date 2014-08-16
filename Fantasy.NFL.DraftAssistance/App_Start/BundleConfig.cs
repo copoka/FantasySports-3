@@ -20,6 +20,9 @@ namespace Fantasy.NFL.DraftAssistance
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+                      "~/Scripts/knockout-3.1.0.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/knockout").Include(
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
