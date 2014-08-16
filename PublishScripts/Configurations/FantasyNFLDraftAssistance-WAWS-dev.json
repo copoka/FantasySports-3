@@ -1,0 +1,21 @@
+{
+    "environmentSettings": {
+        "webSite": {
+            "name": "FantasyNFLDraftAssistance",
+            "location": "Brazil South"
+        },
+        "databases": [
+            {
+                "connectionStringName": "DefaultConnection",
+                "databaseName": "FantasyNFLDraftAssistance_db",
+                "serverName": "",
+                "user": "FantasySports",
+                "password": "",
+                "edition": "",
+                "size": "",
+                "collation": "",
+                "location": "Brazil South"
+            }
+        ]
+    }
+}

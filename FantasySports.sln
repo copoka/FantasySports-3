@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasy.NFL.DraftAssistance", "Fantasy.NFL.DraftAssistance\Fantasy.NFL.DraftAssistance.csproj", "{4D0A6822-5A58-4DA3-9584-8976A7D7807C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{0D222054-858A-400E-91C8-C3426DF4C8AD}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{50072A7B-C73A-4152-8805-F925A9991003}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\FantasyNFLDraftAssistance-WAWS-dev.json = PublishScripts\Configurations\FantasyNFLDraftAssistance-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D0A6822-5A58-4DA3-9584-8976A7D7807C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0A6822-5A58-4DA3-9584-8976A7D7807C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0A6822-5A58-4DA3-9584-8976A7D7807C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0A6822-5A58-4DA3-9584-8976A7D7807C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50072A7B-C73A-4152-8805-F925A9991003} = {0D222054-858A-400E-91C8-C3426DF4C8AD}
+	EndGlobalSection
+EndGlobal
